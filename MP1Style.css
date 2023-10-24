@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Courier;   
+}
+
+.rows::after {
+    content: "";
+    clear:both;
+    display: block;
+}
+
+[class*="coll-"] {
+    float: left;
+    padding: 15px
+}
+
+body {
+    background:fixed url('Bok-Book.jpg') no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-position: center;
+    
+}
+
+.form-row {
+    width: 420px;
+    border: 2px solid rgba(255,255,255,.2);
+    color: white;
+    border-radius: 10px solid;
+    padding: 20px;
+    background:transparent;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    border: 1px solid white;
+
+}
+
+.form-check {
+    background: transparent;
+    margin-top: 5px;
+    
+}
+.btn {
+    border: 1px solid;
+    margin-left: -20px;
+}
+
+.needs-validation {
+    border: none;
+    outline: none;
+    background: transparent;
+    border-radius: 20px;
+}
+
+.form-row .form-control {
+    outline: none;
+    background: transparent;
+}
+
+.form-row input::placeholder {
+    color: white;
+}
+
+.form-row #submit {
+    text-decoration: underline;
+}
+
+
+/* for desktop */
+
+.coll-1 {width: 8.33%;}
+.coll-2 {width: 16.66%;}
+.coll-3 {width: 25%;}
+.coll-4 {width: 33.33%;}
+.coll-5 {width: 41.66%;}
+.coll-6 {width: 50%;}
+.coll-7 {width: 58.33%;}
+.coll-8 {width: 66.66;}
+.coll-9 {width: 75%;}
+.coll-10 {width: 83.33%;}
+.coll-11 {width: 91.66%;}
+.coll-12 {width: 100%;}
+
+
+@media only screen and (max-width:768px) {
+    /* for mobile phones */
+    [class*="coll-"] {
+        width:100%;
+    }
+}
+
+@media only screen and (max-width:400) {
+    /* for mobile phones: */
+    [class*="coll-"] {
+        width: 100%;
+    }
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feeds</title>
+    <link rel="stylesheet" href="feeds.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> -->
+</head>
+<body>
+
+  <div id="nav-bar">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="Bok-Book.jpg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="BStrapPractice1.html">Home</a>
+            <a class="nav-link" href="carousel.html">Photos</a>
+            <a class="nav-link" href="feeds.html">Newsfeed</a>
+            <a class="nav-link" href="test.html">Friends</a>
+          </div>
+          <ul class="navbar-nav1 ml-auto">
+            <a class="navbar btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" href="#">Logout</a>
+          </ul> 
+        </div>
+      </div>
+    </div>
+    </div>
+    </nav>
+
+    <!-- <nav class="navbar navbar-dark bg-primary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="Bok-Book.jpg"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Bok Book</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="BStrapPractice1.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="carousel.html">Photos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="test.html">Friends</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Others
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="PrivacyPolicy" href="PrivacyPolicy.html">Privacy Policy</a></li>
+                    <li><a class="Contact Us" href="Contact.html">Contact us</a></li>
+                    <li><a class="FAQs" href="FAQs.html">FAQs</a></li>
+                      <hr class="dropdown-divider">
+                    </li>
+                   <button><li><a class="dropdown-item btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><u>Logout</u></a></li></button>
+            </div>
+          </div>
+        </div>
+      </nav> -->
+
+      <!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Logout</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ARE YOU SURE?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+        <button type="button"><a href="MiniP1.html" class="btn btn-primary">Yes</a></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      <header>
+
+        <!-- Example Code -->
+        
+        <form class="form-floating">
+          <div class="container">
+            <div class="row"></div>
+              <textarea class="form-control col-8" placeholder="What's on your mind?" id="floatingTextarea"></textarea>
+             <button class="btn btn-primary" type="submit">submit</button>
+          
+            </div>
+          </div> 
+            </form>
+          
+          
+          <!-- <label for="floatingTextarea">What's on your mind?</label>  -->
+      
+   
+        
+        <!-- End Example Code -->
+     <main>
+      <div class="card w-2 mb-1">
+        <div class="container-fluid">
+          <div class="row">
+         <div class="col-1"></div>
+        <div class="card-body col-10">
+         <a><img src="coco.jpg" class="rounded-start rounded-circle" href="#" alt="coco"><h2>lorem</h2></a>
+          <p class="card-text">Alden Richards is like a rare gem, effortlessly radiating warmth and charm. His talent is a captivating melody, and his presence is a masterpiece that paints joy in every frame. Truly, he's not just a star; he's a constellation of talent and grace, lighting up the world with his unique glow.</p>
+        </div>
+        </div>
+      </div>
+    </div>
+        </div>
+
+        <div class="card w-2 mb-1">
+          <div class="container-fluid">
+            <div class="row">
+           <div class="col-1"></div>
+          <div class="card-body col-10">
+           <a><img src="patrick.jpg" class="rounded-start rounded-circle" href="#" alt="patrick"><h2>lorem</h2></a>
+            <p class="card-text">In the vast galaxy of talent, Alden Richards is a shining star, weaving stories with his performances that leave an indelible mark on the hearts of the audience. His charisma is a magnetic force, drawing admiration from all directions. With each role, he transforms, like a versatile artist mastering every stroke of the creative canvas. Alden is not just an actor; he's a symphony of emotions, playing the chords that resonate with the soul.</p>
+          </div>
+        </div>
+      </div>
+          </div>
+
+          <div class="card w-2 mb-3">
+            <div class="container-fluid">
+              <div class="row">
+             <div class="col-1"></div>
+            <div class="card-body col-10">
+             <a><img src="squidward.jpg" class="rounded-start rounded-circle" href="#" alt="squidward"><h2>lorem</h2></a>
+              <p class="card-text">Alden Richards is a tapestry of talent, each thread meticulously woven to create a masterpiece in the world of entertainment. His acting is not just a portrayal; it's a revelation, a dance of emotions that sweeps the audience off their feet. Like a skilled artist, he paints scenes with authenticity, turning scripts into vivid, living canvases. Alden is not merely a heartthrob; he's a craftsman sculpting moments that linger in the tapestry of memories.</p>
+            </div>
+          </div>
+        </div>
+            </div>
+     </main>
+
+     <div class="footer-basic">
+      <footer>
+          <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a>
+            <a href="#"><i class="icon ion-social-snapchat"></i></a>
+            <a href="#"><i class="icon ion-social-twitter"></i></a>
+            <a href="#"><i class="icon ion-social-facebook"></i></a></div>
+          <ul class="list-inline">
+              <li class="list-inline-item"><a href="Contact.html">Contact Us</a></li>
+              <li class="list-inline-item"><a href="FAQs.html">FAQs</a></li>
+              <li class="list-inline-item"><a href="PrivacyPolicy.html">Privacy Policy</a></li>
+          </ul>
+          <p class="copyright">Bok Book © 2023</p>
+      </footer>
+  </div>
+  </div>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+     
+    
+</body>
+</html>
