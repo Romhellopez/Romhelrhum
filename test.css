@@ -146,6 +146,11 @@ div.gallery img {
     color:#aaa;
     margin-bottom:0;
 }
+
+main .responsive {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 /*   
 .foot-nav {
   width: 100%;

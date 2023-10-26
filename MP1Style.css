@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Courier;   
+    font-family: Courier;  
 }
 
 .rows::after {
@@ -23,19 +23,18 @@ body {
     justify-content:center;
     align-items: center;
     background-position: center;
-    
 }
 
 .form-row {
-    width: 420px;
-    border: 2px solid rgba(255,255,255,.2);
+    width: 400px;
+    border: 5px solid rgba(255,255,255,.2);
     color: white;
-    border-radius: 10px solid;
-    padding: 20px;
+    padding: 30px;
     background:transparent;
     box-shadow: 0 0 10px rgba(0,0,0,.2);
     border: 1px solid white;
-
+    margin-top: 38%;
+    padding-bottom: 0;
 }
 
 .form-check {

@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Courier;
+    overflow-x: hidden;
 }
 
 .row::after {
@@ -18,7 +19,6 @@
 
 body {
     font-family: Courier;
-    overflow-x: hidden;
 }
 
 #nav-bar {
@@ -33,7 +33,7 @@ body {
 }
 
 .navbar-brand img {
-    height: 40px;
+    height: 60px;
     padding-left: 20px;
 }
 
@@ -126,6 +126,7 @@ body {
 .footer-basic .social {
     text-align:center;
     padding-bottom:25px;
+    
 }
   
 .footer-basic .social > a {
@@ -140,6 +141,7 @@ body {
     margin:0 8px;
     color:inherit;
     opacity:0.75;
+    overflow: hidden;
 }
   
 .footer-basic .social > a:hover {
