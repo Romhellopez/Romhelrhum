@@ -170,7 +170,10 @@ main p {
   margin-bottom:0;
 }
 
-
+main {
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
  
 /* for desktop */
