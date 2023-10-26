@@ -23,6 +23,8 @@ body {
     justify-content:center;
     align-items: center;
     background-position: center;
+    max-height: 85vh;
+    min-width: 1vh;
 }
 
 .form-row {
@@ -33,7 +35,7 @@ body {
     background:transparent;
     box-shadow: 0 0 10px rgba(0,0,0,.2);
     border: 1px solid white;
-    margin-top: 38%;
+    margin-top: 25%;
     padding-bottom: 0;
 }
 
