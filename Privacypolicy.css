@@ -112,7 +112,7 @@ body {
 
 .footer-basic {
     padding:20px 0;
-    background-color:#ffffff;
+    background-image: linear-gradient(to right, #B6FFFA, #80B3FF);
     color:#4b4c4d;
 }
   
