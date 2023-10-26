@@ -72,11 +72,12 @@ body {
 }
 
 #floatingTextarea {
-  min-width: 60%;
+  width: 80%;
+  max-width: 50vw;
   min-height: 1vh;
   border-radius: 5px solid black;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   float: left;
   position: static;
   justify-content: center;
